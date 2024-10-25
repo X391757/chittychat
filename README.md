@@ -51,7 +51,6 @@ Once the client has joined the chat, you will see the following prompt in your s
 Other clients, such as `client2`, will see:
 
 ```
-Client joined with Lamport time: 2
 2024/10/25 14:42:22 [2] server: Participant client2 joined Chitty-Chat at Lamport time 2
 ```
 
