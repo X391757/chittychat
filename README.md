@@ -39,7 +39,7 @@ go run assignment3/client/client.go -username=client2
 go run assignment3/client/client.go -username=client3
 ```
 
-#### Sending Messages
+#### Joining chat
 
 Once the client has joined the chat, you will see the following prompt in your server log:
 
@@ -52,8 +52,7 @@ Other clients, such as `client2`, will see:
 
 ```
 Client joined with Lamport time: 2
-2024/10/25 14:30:08 client enter the chat system
-2024/10/25 14:34:52 client sent the message
+2024/10/25 14:42:22 [2] server: Participant client2 joined Chitty-Chat at Lamport time 2
 ```
 
 ### Leaving the Chat
