@@ -64,7 +64,7 @@ func main() {
 			mu.Lock()
 			lamportTime = max(lamportTime, msg.Timestamp) + 1
 			mu.Unlock()
-			log.Printf("[%d] %s: %s\n", msg.Timestamp, msg.Username, msg.Content)
+			log.Printf("[%d] %s: %s\n", lamportTime, msg.Username, msg.Content)
 		}
 	}()
 

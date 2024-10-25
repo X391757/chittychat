@@ -1,22 +1,29 @@
-2024/10/25 15:04:23 Starting chat server...
-2024/10/25 15:04:23 server listening at [::]:50051
-2024/10/25 15:04:37 client1 enter the chat system
-2024/10/25 15:04:37 The message has been broadcasted
-2024/10/25 15:04:42 client2 enter the chat system
-2024/10/25 15:04:42 The message has been broadcasted
-2024/10/25 15:05:01 client3 enter the chat system
-2024/10/25 15:05:01 The message has been broadcasted
-2024/10/25 15:05:39 client1 sent the message
-2024/10/25 15:05:39 The message has been broadcasted
-2024/10/25 15:06:26 client2 sent the message
-2024/10/25 15:06:26 The message has been broadcasted
-2024/10/25 15:06:34 client3 sent the message
-2024/10/25 15:06:34 The message has been broadcasted
-2024/10/25 15:13:03 client1 sent the message
-2024/10/25 15:13:03 The message has been broadcasted
-2024/10/25 15:13:09 client1 leave the chat system
-2024/10/25 15:13:09 The message has been broadcasted
-2024/10/25 15:13:14 client2 leave the chat system
-2024/10/25 15:13:14 The message has been broadcasted
-2024/10/25 15:13:24 client3 leave the chat system
-2024/10/25 15:13:24 The message has been broadcasted
+2024/10/25 16:21:54 Starting chat server...
+2024/10/25 16:21:54 server listening at [::]:50051
+2024/10/25 16:21:59 client1 enter the chat system
+2024/10/25 16:21:59 The message has been broadcasted
+2024/10/25 16:21:59 after broadcast 1 enter the chat system
+2024/10/25 16:22:01 client2 enter the chat system
+2024/10/25 16:22:01 The message has been broadcasted
+2024/10/25 16:22:01 after broadcast 2 enter the chat system
+2024/10/25 16:22:04 client3 enter the chat system
+2024/10/25 16:22:04 The message has been broadcasted
+2024/10/25 16:22:04 after broadcast 3 enter the chat system
+2024/10/25 16:22:10 client1 sent the message
+2024/10/25 16:22:10 The message has been broadcasted
+2024/10/25 16:22:10 after broadcast 6 enter the chat system
+2024/10/25 16:22:17 client2 sent the message
+2024/10/25 16:22:17 The message has been broadcasted
+2024/10/25 16:22:17 after broadcast 9 enter the chat system
+2024/10/25 16:22:24 client3 sent the message
+2024/10/25 16:22:24 The message has been broadcasted
+2024/10/25 16:22:24 after broadcast 12 enter the chat system
+2024/10/25 16:22:49 client1 leave the chat system
+2024/10/25 16:22:49 The message has been broadcasted
+2024/10/25 16:22:49 after broadcast 13 enter the chat system
+2024/10/25 16:23:01 client2 leave the chat system
+2024/10/25 16:23:01 The message has been broadcasted
+2024/10/25 16:23:01 after broadcast 14 enter the chat system
+2024/10/25 16:23:06 client3 leave the chat system
+2024/10/25 16:23:06 The message has been broadcasted
+2024/10/25 16:23:06 after broadcast 15 enter the chat system

@@ -12,6 +12,7 @@ service ChittyChat {
 
 message JoinRequest {
   string username = 1;
+
 }
 
 message LeaveRequest {

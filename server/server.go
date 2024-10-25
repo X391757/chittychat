@@ -36,6 +36,7 @@ func (s *chittychatserver) JoinChat(req *pb.JoinRequest, stream pb.ChittyChat_Jo
 		Timestamp: currentTime,
 	})
 
+	log.Printf("after broadcast %d enter the chat system", s.lamportTime)
 	<-stream.Context().Done()
 	return nil
 
@@ -59,6 +60,7 @@ func (s *chittychatserver) LeaveChat(ctx context.Context, req *pb.LeaveRequest) 
 		Timestamp: currentTime,
 	})
 
+	log.Printf("after broadcast %d enter the chat system", s.lamportTime)
 	return &pb.Empty{}, nil
 }
 
@@ -82,6 +84,7 @@ func (s *chittychatserver) SendMessage(ctx context.Context, msg *pb.ChatMessage)
 	s.mu.Unlock()
 
 	s.broadcast(msg)
+	log.Printf("after broadcast %d enter the chat system", s.lamportTime)
 	return &pb.Empty{}, nil
 }
 
