@@ -44,30 +44,42 @@ go run assignment3/client/client.go -username=client3
 Once the client has joined the chat, you will see the following prompt in your server log:
 
 ```
-2024/10/25 14:29:31 client enter the chat system
-2024/10/25 14:29:31 The message has been broadcasted
+2024/10/25 15:04:37 client1 enter the chat system
+2024/10/25 15:04:37 The message has been broadcasted
 ```
 
 Other clients, such as `client2`, will see:
 
 ```
-2024/10/25 14:42:22 [2] server: Participant client2 joined Chitty-Chat at Lamport time 2
+2024/10/25 15:04:37 [1] server: Participant client1 joined Chitty-Chat at Lamport time 1
 ```
 
+#### Sending the message
+
+Once client1 send the message, you will see below in the server log:
+```
+2024/10/25 15:05:39 client1 sent the message
+2024/10/25 15:05:39 The message has been broadcasted
+```
+
+Other client log:
+```
+2024/10/25 15:05:39 [6] client1: hi
+```
 ### Leaving the Chat
 
 To leave the chat, simply type `/quit`. The following message will appear:
 Other clients will be notified:
 ```
-2024/10/25 14:37:50 [6] System: Participant client left Chitty-Chat at Lamport time 6
+2024/10/25 15:13:09 [16] System: Participant client1 left Chitty-Chat at Lamport time 16
 ```
 
 
 And the server will log the departure:
 
 ```
-2024/10/25 14:37:50 client leave the chat system
-2024/10/25 14:37:50 The message has been broadcasted
+2024/10/25 15:13:03 client1 sent the message
+2024/10/25 15:13:03 The message has been broadcasted
 ```
 
 ### Additional Information

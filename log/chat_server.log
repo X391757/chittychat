@@ -1,6 +1,22 @@
-2024/10/25 14:42:07 Starting chat server...
-2024/10/25 14:42:07 server listening at [::]:50051
-2024/10/25 14:42:12 client1 enter the chat system
-2024/10/25 14:42:12 The message has been broadcasted
-2024/10/25 14:42:22 client2 enter the chat system
-2024/10/25 14:42:22 The message has been broadcasted
+2024/10/25 15:04:23 Starting chat server...
+2024/10/25 15:04:23 server listening at [::]:50051
+2024/10/25 15:04:37 client1 enter the chat system
+2024/10/25 15:04:37 The message has been broadcasted
+2024/10/25 15:04:42 client2 enter the chat system
+2024/10/25 15:04:42 The message has been broadcasted
+2024/10/25 15:05:01 client3 enter the chat system
+2024/10/25 15:05:01 The message has been broadcasted
+2024/10/25 15:05:39 client1 sent the message
+2024/10/25 15:05:39 The message has been broadcasted
+2024/10/25 15:06:26 client2 sent the message
+2024/10/25 15:06:26 The message has been broadcasted
+2024/10/25 15:06:34 client3 sent the message
+2024/10/25 15:06:34 The message has been broadcasted
+2024/10/25 15:13:03 client1 sent the message
+2024/10/25 15:13:03 The message has been broadcasted
+2024/10/25 15:13:09 client1 leave the chat system
+2024/10/25 15:13:09 The message has been broadcasted
+2024/10/25 15:13:14 client2 leave the chat system
+2024/10/25 15:13:14 The message has been broadcasted
+2024/10/25 15:13:24 client3 leave the chat system
+2024/10/25 15:13:24 The message has been broadcasted

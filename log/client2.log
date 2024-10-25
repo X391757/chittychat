@@ -1,3 +1,8 @@
-2024/10/25 14:42:22 Starting chat client...
-2024/10/25 14:42:22 [2] server: Participant client2 joined Chitty-Chat at Lamport time 2
-2024/10/25 14:43:36 Error receiving message: rpc error: code = Unavailable desc = error reading from server: EOF
+2024/10/25 15:04:42 Starting chat client...
+2024/10/25 15:04:42 [2] server: Participant client2 joined Chitty-Chat at Lamport time 2
+2024/10/25 15:05:01 [3] server: Participant client3 joined Chitty-Chat at Lamport time 3
+2024/10/25 15:05:39 [6] client1: hi
+2024/10/25 15:06:26 [9] client2: I amclient2
+2024/10/25 15:06:34 [12] client3: I am client3
+2024/10/25 15:13:03 [15] client1: \quit
+2024/10/25 15:13:09 [16] System: Participant client1 left Chitty-Chat at Lamport time 16
