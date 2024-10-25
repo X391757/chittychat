@@ -84,9 +84,3 @@ And the server will log the departure:
 
 Note that the lamport time in the message type is the server's lamport time, and the client will add 1 to the server's lamport time after receiving the message, so the number in [] is 1 more than the number in the message.
 
-### Additional Information
-
-- **Lamport Timestamps**: The system uses Lamport timestamps to maintain message order. Each message will display the current Lamport time for consistent event sequencing across all clients.
-- **Real-Time Updates**: Clients receive real-time notifications for joining, leaving, and messaging events, facilitating smooth communication in a distributed environment.
-
-This completes the setup and usage instructions for the ChittyChat system. Happy chatting!
