@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "chittychat/chittychat";
+
+package chittychat;
+
+service ChittyChat {
+  rpc JoinChat (JoinRequest) returns (stream ChatMessage);
+  rpc LeaveChat (LeaveRequest) returns (Empty);
+  rpc SendMessage (ChatMessage) returns (Empty);
+}
+
+message JoinRequest {
+  string username = 1;
+}
+
+message LeaveRequest {
+  string username = 1;
+}
+
+message ChatMessage {
+  string username = 1;
+  string content = 2;
+  uint64 timestamp = 3;
+}
+
+message Empty {}

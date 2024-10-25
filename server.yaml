@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chitty-chat-server
+  labels:
+    app: chitty-chat
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: chitty-chat
+  template:
+    metadata:
+      labels:
+        app: chitty-chat
+    spec:
+      containers:
+        - name: chitty-chat
+          image: sdkfeg/chittychat-server:latest
+          ports:
+            - containerPort: 50051 
+          volumeMounts:
+            - name: tls-secret
+              mountPath: "/etc/chitty-chat-tls"  
+              readOnly: true
+          env:
+            - name: CERT_FILE
+              value: "/etc/chitty-chat-tls/server.crt" 
+            - name: KEY_FILE
+              value: "/etc/chitty-chat-tls/server.key"  
+      volumes:
+        - name: tls-secret
+          secret:
+            secretName: chitty-chat-tls  
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: chitty-chat-service
+spec:
+  selector:
+    app: chitty-chat
+  ports:
+    - protocol: TCP
+      port: 50051  
+      targetPort: 50051  
+  type: ClusterIP  

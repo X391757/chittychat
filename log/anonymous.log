@@ -1,0 +1,6 @@
+2024/10/25 14:30:08 Starting chat client...
+2024/10/25 14:30:08 [2] server: Participantanonymousjoined Chitty-Chat at Lamport time2
+2024/10/25 14:34:52 [5] anonymous: hi
+2024/10/25 14:37:50 [6] System: Participantclientleft Chitty-Chat at Lamport time6
+2024/10/25 14:41:40 Error receiving message: rpc error: code = Unavailable desc = error reading from server: EOF
+2024/10/25 14:41:46 Error leaving chat: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:50051: connect: connection refused"
